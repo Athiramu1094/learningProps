@@ -1,0 +1,26 @@
+.property-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   color: blue;
+   margin: 3rem 3rem;
+}
+
+.button-1{
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    border: none;
+
+}
+.button-1:hover{
+    background-color: white;
+    color: black;
+}
+
+.add-btn{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    background-color: green;
+    color: white;
+    width: 60px;
+}

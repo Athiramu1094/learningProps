@@ -6,6 +6,7 @@ function DiceRoll(){
     const result =  num1===num2 ? "You Win" : "You Loose"
     const styles = {color:"violet"}
     const resultColor = {color: num1===num2 ? "green" : "red"}
+    
 
     return (
     <div style={styles}>
